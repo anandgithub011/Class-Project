@@ -1,0 +1,53 @@
+
+/*------- ID Selector------ */
+
+/* #head {
+    background-color: antiquewhite;
+} */
+
+
+/* ------class Selector----- */
+
+/* .head {
+    background-color: antiquewhite;
+} */
+
+
+/*----- ID vs Class Selector -----*/
+
+/* #head1 {
+    background-color: blueviolet;
+}
+
+.head {
+    background-color: antiquewhite;
+} */
+
+
+/*---- Tag OR Element Selector ----*/
+
+/* h2 {
+    background-color: rgb(196, 18, 18);
+    color: aliceblue;
+} */
+
+
+
+/*------ Grouping Selector------- */
+
+
+h6,h2,section,div {
+    background-color: cadetblue;
+}
+
+
+
+/*------ Universal Selector----- */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
