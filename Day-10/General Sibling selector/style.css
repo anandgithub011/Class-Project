@@ -1,0 +1,11 @@
+
+
+/* <!-- 4.  General Sibling selector (~) --> */
+
+div ~ p {
+    background-color: rgb(2, 123, 123);
+    color: aliceblue;
+}
+
+
+
