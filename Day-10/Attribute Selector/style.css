@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* <!-- (i) [attribute name] --> */
+
+/* h1[id] {
+    background-color: rgb(10, 99, 69);
+    color: aliceblue;
+} */
+
+
+
+/* <!-- (ii) [attribute = value] --> */
+
+/* h1[id=head1] {
+    background-color: rgb(156, 91, 11);
+    color: aliceblue;
+}
+
+h1[class= head2] {
+    background-color: blue;
+} */
+
+
+
+/* <!-- (iii) [attribute ~= value] --> */
+
+h1[id~=head1] {
+    background-color: aqua;
+}
