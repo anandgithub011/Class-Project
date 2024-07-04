@@ -1,12 +1,12 @@
 
-/*------- ID Selector------ */
+/*------- (i)  ID Selector------ */
 
 /* #head {
     background-color: antiquewhite;
 } */
 
 
-/* ------class Selector----- */
+/* ----- (ii)  class Selector----- */
 
 /* .head {
     background-color: antiquewhite;
@@ -24,7 +24,7 @@
 } */
 
 
-/*---- Tag OR Element Selector ----*/
+/*----  (iii) Tag OR Element Selector ----*/
 
 /* h2 {
     background-color: rgb(196, 18, 18);
@@ -33,7 +33,7 @@
 
 
 
-/*------ Grouping Selector------- */
+/*------ (iv)  Grouping Selector------- */
 
 
 h6,h2,section,div {
@@ -42,7 +42,7 @@ h6,h2,section,div {
 
 
 
-/*------ Universal Selector----- */
+/*------ (v)  Universal Selector----- */
 
 *{
     box-sizing: border-box;
