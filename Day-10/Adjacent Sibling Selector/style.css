@@ -1,0 +1,7 @@
+
+/* <!--  3. Adjacent Sibling Selector(+) --> */
+
+div + p {
+    background-color: rgb(163, 93, 7);
+    color: aliceblue;
+}
