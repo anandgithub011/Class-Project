@@ -1,53 +1,41 @@
-
-
 /* <!-- 1. (::first-letter) --> */
 
 p::first-letter {
-    font-size: 50px;
-    color: red;
+  font-size: 50px;
+  color: red;
 }
-
 
 /* <!-- 2. (::first-line) --> */
 
 p::first-line {
-    color: red;
-
+  color: red;
 }
-
-
 
 /* <!-- 3. (::before) --> */
 
-p::before{
-    content: "Hi I am become a Software Developer. ";
-    color: rgb(140, 120, 7);
-    font-size: large;
+p::before {
+  content: "Hi I am become a Software Developer. ";
+  color: rgb(140, 120, 7);
+  font-size: large;
 }
-
 
 /* <!-- 4. (::after) --> */
 
 p::after {
-    content: " END";
-    color: red;
-    font-size: 60px;
+  content: " END";
+  color: red;
+  font-size: 60px;
 }
-
-
 
 /* <!-- 5.(Selection) --> */
 
 p::selection {
-    color: red;
-    background-color: yellow;
+  color: red;
+  background-color: yellow;
 }
-
-
 
 /* <!-- 6. (marker) it is only for <li> tag only (By-default) --> */
 li::marker {
-    color: red;
-    font-size: 40px;
+  color: red;
+  font-size: 40px;
 }
-
