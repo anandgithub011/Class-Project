@@ -1,0 +1,29 @@
+
+
+/* when you write below sequence manner then it will work proper. */
+a:link {
+    color: hotpink;
+}
+
+
+a:visited {
+    color: green;
+}
+
+
+a:hover {
+    color: orange;
+}
+
+
+a:active {
+    color: yellow;
+}
+
+/* for working (:focus) pseudo class always focus comes should before the (:active) pseudo class. */
+input:focus {
+    background-color: red;
+}
+input:active {
+    background-color: rgb(4, 142, 96);
+}
