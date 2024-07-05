@@ -1,0 +1,31 @@
+p {
+    color: red;
+    text-align: left;
+    text-align: right;
+    text-align: center;
+    text-transform: capitalize;
+    text-transform: lowercase;
+    text-transform:uppercase;
+    text-shadow: 0px 0px 2px yellow;   /* 1st is right-left, 2nd is top-bottom. 3rd is for blur, 4th is for color */
+    text-decoration: underline;
+    text-decoration: overline;
+    text-decoration:line-through;
+    text-decoration: underline overline line-through;
+    letter-spacing: 2px;
+    word-spacing: 14px;
+    text-indent: 112px;
+
+ 
+}
+
+
+
+div {
+    border: 2px solid red;
+    width: 100px;
+    text-wrap: nowrap;
+    /* overflow: hidden; */
+    overflow: scroll;
+    text-overflow: clip;
+    /* text-overflow: ellipsis; */
+}
