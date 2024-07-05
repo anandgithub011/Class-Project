@@ -24,6 +24,8 @@ a:active {
 input:focus {
     background-color: red;
 }
+
+
 input:active {
     background-color: rgb(4, 142, 96);
 }
