@@ -1,0 +1,15 @@
+div {
+    width: 300px;
+    height: 300px;
+    /* border: 20px solid red; */
+    /* border-top: 20px solid yellow;
+    border-right: 30px solid orange;
+    border-bottom: 10px solid red;
+    border-left: 20px solid blue; */
+    /* border: 20px dashed red; */
+    /* border: 30px dotted blue; */
+    /* border: 20px ridge yellow; */
+    /* border: 20px groove grey; */
+    /* border: 20px outset orange; */
+    border: 20px double pink;
+}
