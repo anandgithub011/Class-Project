@@ -1,0 +1,36 @@
+div {
+  width: 400px;
+  height: 400px;
+  border: 10px solid red;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  /* background-image: linear-gradient(
+      rgba(255, 0, 0, 0.37),
+      rgba(0, 128, 0, 0.457),
+      rgba(0, 0, 255, 0.438)
+    ),
+    url(./OIP.jpeg); */
+
+  /* background-image: repeating-linear-gradient(
+      rgba(255, 0, 0, 0.461),
+      rgba(0, 128, 0, 0.763),
+      rgba(0, 0, 255, 0.612) 33%
+    ),
+    url(./OIP.jpeg); */
+
+  /* background-image: radial-gradient(
+      rgb(255, 0, 0),
+      rgba(255, 255, 0, 0.726),
+      rgba(135, 207, 235, 0.452) 52%
+    ),
+    url(./OIP.jpeg); */
+
+  background-image: repeating-radial-gradient(
+      rgba(255, 0, 0, 0.872),
+      rgba(0, 128, 0, 0.461),
+      rgba(0, 0, 255, 0.571) 4%
+    ),
+    url(./OIP.jpeg);
+}
