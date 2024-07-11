@@ -6,7 +6,7 @@
 
 nav {
     /* border: 2px solid red; */
-    height: 140px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,8 +15,8 @@ nav {
 
 #container {
     /* border: 2px solid blue; */
-    height: 100px;
-    width: 85%;
+    height: 80px;
+    width: 83%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,6 +29,8 @@ nav {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    text-wrap: nowrap;
+    overflow: hidden;
 }
 
 #logo h1 a {
@@ -36,6 +38,7 @@ nav {
     text-decoration: none;
     color: aliceblue;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
 }
 
 #nav-items {
@@ -45,25 +48,28 @@ nav {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    text-wrap: nowrap;
+    overflow: hidden;
 }
 
 #nav-items ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 30px;
 }
 
 #nav-items ul li a {
-    font-size: 20px;
+    font-size: 21px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-decoration: none;
     color: rgb(117, 119, 121);
+    font-weight: lighter;
 }
 
 #nav-items ul li {
     list-style: none;
-    letter-spacing: -2px;
+    letter-spacing: -2.4px;
 }
 
 #underline {
@@ -92,7 +98,7 @@ nav {
 #parent-container {
     /* border: 2px solid blue; */
     height: inherit;
-    width: 85%;
+    width: 83%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -112,6 +118,9 @@ nav {
     color: rgb(207, 212, 217);
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    
+    
 }
 
 .card button {
@@ -124,6 +133,7 @@ nav {
     border-radius: 5px;
     display: flex;
     justify-content: center;
+    
 }
 
 .card img {
@@ -133,13 +143,158 @@ nav {
 }
 
 #nav-items ul li a:hover {
-    color: #858bb4;
-}
-
-#logo h1 a:hover {
-    color: #898fc4;
+    color: #dfe1e6;
 }
 
 .card button:hover {
     background-color:  #ff3c3c;
+}
+
+
+/* -------Secomnd-Container---- */
+
+
+#second-container {
+    /* border: 2px solid blue; */
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2E3337;
+    border-top: solid 1px #222628;
+    box-shadow: inset 0px 1px 0px 0px #3e484a;
+    padding: 35px 0 35px 0;
+    color: #fff;
+}
+
+#second-parent-container {
+    /* border: 2px solid yellow; */
+    height: 300px;
+    width: 83%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card2 {
+    /* border: 2px solid red; */
+    width: 23.6%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+    gap: 35px;
+
+}
+
+.card2 img {
+    border: 10px solid rgb(236, 233, 227);
+    width: 100%;
+    height: 100%;
+}
+
+.card2 h1 {
+    color: rgb(231, 226, 226);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+.card2 p {
+    font-weight: lighter;
+    color: rgb(191, 188, 188);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+/*------------ Third-Container-------- */
+
+
+#third-container {
+    /* border: 2px solid red; */
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(239, 239, 235);
+}
+
+#third-parent-container {
+    /* border: 2px solid blue; */
+    width: 83%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.card3 {
+    background-color: white;
+    /* border: 2px solid orange; */
+    width: 30%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    text-wrap: wrap;
+    overflow: hidden;
+    /* text-overflow: clip; */
+    /* overflow: scroll; */
+
+}
+
+.card3-img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.child-card3 div img {
+    width: 100%;
+    height: 100%;
+}
+
+.card3 h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+
+.card3 h2 {
+    color: #7d8181;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    letter-spacing: -2px;
+    /* text-wrap: nowrap; */
+}
+
+
+.card3 p, .child-card3 div i {
+    color: #767778;
+    font-weight: lighter;
+    font-size: 22px;
+}
+
+
+.child-card3 div h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: #4e5155;
+    margin-top: 10px;
+
+}
+
+
+.child-card3 {
+    /* border: 2px solid blue; */
+    /* width: 95%; */
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 20px; */
 }
