@@ -10,7 +10,8 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #2E3337;
+    /* background-color: #2E3337; */
+    background-color: #3b4346;
 }
 
 #container {
@@ -185,6 +186,7 @@ nav {
     /* justify-content: center; */
     /* align-items: center; */
     gap: 35px;
+    /* overflow: hidden; */
 
 }
 
@@ -213,6 +215,7 @@ nav {
 
 #third-container {
     /* border: 2px solid red; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     height: 600px;
     display: flex;
     justify-content: center;
@@ -245,7 +248,7 @@ nav {
     /* text-wrap: wrap; */
     /* overflow: hidden; */
     /* text-overflow: clip; */
-    /* overflow: scroll; */
+    overflow: hidden;
 
 }
 
@@ -299,3 +302,105 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
+
+
+
+footer {
+    /* border: 2px solid red; */
+    background-color: #ced3d7;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+#footer-top {
+    /* border: 2px solid red; */
+    height: 100px;
+    width: 83%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+#footer-top h2 {
+    color: #7c7e7e;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 21px;
+    font-weight: lighter;
+}
+
+
+#footer-top-child2 {
+    margin-right: 68px;
+}
+
+
+#footer-container {
+    border-bottom: 1px solid grey;
+    width: 83%;
+    height:250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer-container-1 {
+    /* border: 2px solid blue; */
+    height: inherit;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#footer-container-2 {
+    /* border: 2px solid rgb(117, 28, 10); */
+    height: inherit;
+    width: 27%;
+}
+
+
+.card-4 {
+    /* border: 2px solid rgb(128, 17, 17); */
+    height: inherit;
+    width: 21%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.card-4 a p {
+    color: rgb(177, 170, 170);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    letter-spacing: -1px;
+}
+.card-4 a:hover{
+    text-decoration: none;
+}
+
+#footer-container-2 p {
+    color: rgb(177, 170, 170);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+
+#copyright {
+    /* border: 2px solid red; */
+    /* height: 150px; */
+    color: rgb(177, 170, 170);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    padding: 30px;
+}
+
+
+#copyright a {
+    color: rgb(177, 170, 170);
+}
+
