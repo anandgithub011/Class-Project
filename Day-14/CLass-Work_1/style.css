@@ -156,7 +156,7 @@ nav {
 
 #second-container {
     /* border: 2px solid blue; */
-    height: 400px;
+    height: 420px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -182,7 +182,7 @@ nav {
     height: inherit;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: center; */
     /* align-items: center; */
     gap: 35px;
 
@@ -203,6 +203,7 @@ nav {
     font-weight: lighter;
     color: rgb(191, 188, 188);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    word-spacing: 5px;
 }
 
 
@@ -222,7 +223,7 @@ nav {
 #third-parent-container {
     /* border: 2px solid blue; */
     width: 83%;
-    height: 500px;
+    height: 450px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -238,10 +239,11 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    /* align-items: center; */
     gap: 20px;
     padding: 40px;
-    text-wrap: wrap;
-    overflow: hidden;
+    /* text-wrap: wrap; */
+    /* overflow: hidden; */
     /* text-overflow: clip; */
     /* overflow: scroll; */
 
@@ -275,7 +277,7 @@ nav {
 .card3 p, .child-card3 div i {
     color: #767778;
     font-weight: lighter;
-    font-size: 22px;
+    /* font-size: 18px; */
 }
 
 
@@ -296,5 +298,4 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* gap: 20px; */
 }
