@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-/* ? <!-- 1. Descendent Selector --> */
+/* ? <!-- 1. Descendent Selector (space) --> */
 
 section p{
     background-color: rgba(2, 100, 67, 0.594);
