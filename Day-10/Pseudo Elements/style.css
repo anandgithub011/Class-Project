@@ -15,7 +15,7 @@ p::first-line {
 
 p::before {
   content: "Hi I am become a Software Developer. ";
-  color: rgb(140, 120, 7);
+  color: rgb(7, 140, 49);
   font-size: large;
 }
 
@@ -32,10 +32,16 @@ p::after {
 p::selection {
   color: red;
   background-color: yellow;
+  /* user-select: none; */
 }
 
 /* <!-- 6. (marker) it is only for <li> tag only (By-default) --> */
-li::marker {
+/* li::marker {
   color: red;
   font-size: 40px;
+} */
+
+::marker {
+  color: aquamarine;
+  font-size: 20px;
 }
