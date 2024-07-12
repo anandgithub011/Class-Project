@@ -7,7 +7,7 @@
 
 footer {
     /* border: 2px solid red; */
-    height: 650px;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,8 +17,8 @@ footer {
 
 #container {
     /* border: 2px solid rgb(0, 255, 34); */
-    height: 620px;
-    width: 90%;
+    height: 480px;
+    width: 85%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -36,7 +36,7 @@ footer {
 
 #bottom {
     /* border: 2px solid rgb(0, 0, 255); */
-    height: 150px;
+    height: 30px;
     width: 100%;
     text-align: center;
     /* margin-top: 30px; */
@@ -68,21 +68,24 @@ footer {
 }
 
 .card .top h1 {
-    color: rgb(226, 228, 230);
+    color: rgb(197, 199, 201);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 30px;
+    font-size: 28px;
+    user-select: none;
 }
 .card .para {
     /* border: 2px solid rgb(0, 255, 60); */
     height: 55%;
     width: 100%;
+    /* text-align: justify; */
 }
 
 .card .para p {
-    color: aliceblue;
-    font-size: 20px;
+    color: rgb(210, 212, 213);
+    font-size: 19px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: lighter;
+    user-select: none;
 }
 
 
@@ -100,15 +103,27 @@ footer {
 
 .card .logo .icon {
     /* border: 2px solid red; */
-    padding: 20px;
+    padding: 15px;
     border-radius: 50%;
     background-color: #207ce5;
 
 }
 
+
+.card .logo .icon:hover {
+    background-color: aliceblue;
+}
+
 .icon i {
     color: aliceblue;
+    font-size: 20px;
 }
+
+.icon i:hover{
+    color: rgb(73, 163, 241);
+}
+
+
 
 .card .list {
     /* border: 2px solid yellow; */
@@ -130,9 +145,11 @@ footer {
 
 .list ul a {
     text-decoration: none;
-    color: aliceblue;
-    font-size: 20px;
+    color: rgb(209, 211, 214);
+    font-size: 16px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    user-select: none;
 }
 
 .address {
