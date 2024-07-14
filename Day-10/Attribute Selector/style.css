@@ -8,23 +8,23 @@
 
 /* <!-- (i) [attribute name] --> */
 
-/* h1[id] {
+[id] {
     background-color: rgb(10, 99, 69);
-    color: aliceblue;
-} */
+    /* color: aliceblue; */
+}
 
 
 
 /* <!-- (ii) [attribute = value] --> */
 
-/* h1[id=head1] {
+h1[id=head1] {
     background-color: rgb(156, 91, 11);
     color: aliceblue;
 }
 
-h1[class= head2] {
+h1[class=head2] {
     background-color: blue;
-} */
+}
 
 
 
