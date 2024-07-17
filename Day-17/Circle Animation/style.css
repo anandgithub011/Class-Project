@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+section {
+    width: 300px;
+    height: 300px;
+    border: 40px solid grey;
+    border-radius: 50%;
+    border-top: 40px solid rgb(6, 187, 6);
+    border-left: 40px solid rgb(240, 31, 12);
+    border-bottom: 40px solid rgb(247, 255, 7);
+    border-right: 40px solid rgb(9, 33, 245);
+    animation-name: circle;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes circle{
+    from{
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
