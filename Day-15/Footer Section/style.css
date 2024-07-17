@@ -3,8 +3,6 @@
     margin: 0;
     padding: 0;
 }
-
-
 footer {
     /* border: 2px solid red; */
     height: 600px;
@@ -12,7 +10,6 @@ footer {
     justify-content: center;
     align-items: center;
     background: linear-gradient(135deg,#ce4be8,#207ce5 100%);
-
 }
 
 #container {
@@ -73,6 +70,7 @@ footer {
     font-size: 28px;
     user-select: none;
 }
+
 .card .para {
     /* border: 2px solid rgb(0, 255, 60); */
     height: 55%;
@@ -88,9 +86,6 @@ footer {
     user-select: none;
 }
 
-
-
-
 .card .logo {
     /* border: 2px solid rgb(255, 77, 0); */
     height: 30%;
@@ -103,12 +98,10 @@ footer {
 
 .card .logo .icon {
     /* border: 2px solid red; */
-    padding: 15px;
+    padding: 20px;
     border-radius: 50%;
     background-color: #207ce5;
-
 }
-
 
 .card .logo .icon:hover {
     background-color: aliceblue;
@@ -122,8 +115,6 @@ footer {
 .icon i:hover{
     color: rgb(73, 163, 241);
 }
-
-
 
 .card .list {
     /* border: 2px solid yellow; */
