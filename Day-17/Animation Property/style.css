@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+div {
+    font-size: 400px;
+    /* animation: heart 0.5s linear 0s infinite alternate; */
+    animation-name: heart;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+@keyframes heart {
+    from{
+        font-size: 400px;
+    }
+    to{
+        font-size: 500px;
+    }
+}
