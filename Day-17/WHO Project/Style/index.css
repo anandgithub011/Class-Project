@@ -565,20 +565,29 @@ select {
 
 .card7-right {
     /* border: 2px solid rgb(43, 0, 255); */
-    width: 80%;
+    width: 82%;
     padding: 0px 20px;
     height: inherit;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 8px;
+}
+
+.card7-right h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: #0c2b64;
+    font-weight: bolder;
+}
+.card7-right p {
+    color: #0c2b64;
 }
 
 .card7-date-calendar {
     /* border: 2px solid rgb(113, 15, 15); */
     display: flex;
-    justify-content: space-evenly;
-    width: 40%;
-    align-items: center;
+    gap: 5px;
 }
 
 
