@@ -3,7 +3,12 @@ div {
     height: 400px;
     width: 400px;
     background-image: url(./OIP.jpeg);
-    background-position: center;
+    /* background-position: center; */
+    /* background-position: left bottom; */
+    /* background-position: left top; */
+    /* background-position: right bottom; */
+    /* background-position: right top; */
+    background-position: 10px 20px;
     background-repeat: no-repeat;
     background-size: cover;
 }
