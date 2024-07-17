@@ -27,10 +27,10 @@ div {
     ),
     url(./OIP.jpeg); */
 
-  background-image: repeating-radial-gradient(
+  background-image: repeating-conic-gradient(
       rgba(255, 0, 0, 0.872),
-      rgba(0, 128, 0, 0.461),
-      rgba(0, 0, 255, 0.571) 4%
+      rgb(249, 245, 12),
+      rgba(29, 245, 13, 0.571) 70%
     ),
     url(./OIP.jpeg);
 }
