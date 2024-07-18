@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixed Positioning Example</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        .fixed-element {
+            position: fixed;
+            bottom: 10px;
+            /* 10px from the bottom of the viewport */
+            right: 20px;
+            /* 20px from the right of the viewport */
+            background-color: #f0f0f0;
+            padding: 10px;
+            border: 1px solid #000;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <p>Scroll down to see the fixed element.</p>
+        <!-- Add enough content to enable scrolling -->
+        <div style="height: 2000px;"></div>
+    </div>
+    <div class="fixed-element">Fixed Element</div>
+</body>
+
+</html>
