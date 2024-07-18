@@ -533,6 +533,7 @@ select {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-content: center;
 }
 .card7-child2-block {
     border: 2px solid rgb(255, 255, 255);
@@ -542,6 +543,7 @@ select {
     display: flex;
     justify-content: space-between;
     /* align-items: center; */
+    /* align-content: center; */
 }
 
 
@@ -555,12 +557,14 @@ select {
     height: inherit;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
+    align-content: center;
 }
 .card7-left img {
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     width: 100%;
     height: 97.7%;
+    /* height: 100%; */
 }
 
 .card7-right {
