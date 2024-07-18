@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relative Positioning Example</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .container {
+            width: 300px;
+            height: 200px;
+            border: 1px solid #000;
+            position: relative;
+        }
+
+        .relative-element {
+            position: relative;
+            top: 20px;
+            /* Moves down by 20px */
+            /* left: 20px; */
+            /* Moves right by 10px */
+            background-color: #e96868;
+            /* width: 100px; */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="relative-element">Relative Element</div>
+    </div>
+</body>
+
+</html>
