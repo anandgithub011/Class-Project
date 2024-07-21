@@ -1,0 +1,17 @@
+
+#child {
+    background-color: rgb(249, 21, 21);
+    color: aliceblue;
+    width: 100px;
+    transition: all;
+    transition-timing-function: ease-in-out;
+    transition: 4s;
+    transition-delay: 0s;
+    cursor: pointer;
+}
+
+#child:hover {
+    border: 2ps solid rgb(249, 4, 4);
+    background-color: white;
+    color: red;
+}
