@@ -1,4 +1,4 @@
-console.log("Hi javaScript");
+// console.log("Hi javaScript");
 //! What is javaScript?
 // ? JavaScript is a object based and functional programming language which is
 //& 1. Dynamic in nature
@@ -104,3 +104,12 @@ console.log("Hi javaScript");
 // const c = 200;
 // Cannot redeclare block-scoped variable 'c'
 // Uncaught SyntaxError: Identifier 'c' has already been declared 
+
+// let res = "5";
+// res -= 1;
+// console.log(res);
+// console.log(typeof res);
+let a = 100;
+
+let a;
+
