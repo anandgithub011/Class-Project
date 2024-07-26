@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <style>
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            gap: 35px;
+            user-select: none;
+        }
+
+        .parent-container{
+            width: 100vw;
+            margin-top: 40px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .card-container {
+            /* border: 2px solid red; */
+            width: 400px;
+            padding-bottom: 20px;
+            box-shadow: 1px 2px 5px rgb(223, 220, 220);
+            border-radius: 25px 25px 0px 0px;
+            transition: 0.4s;
+        }
+
+        .card-container:hover {
+            transform: scale(1.1);
+            /* transform: rotate(360deg); */
+            /* transform: skew(30deg); */
+        }
+
+        .img-container {
+            /* border: 2px solid blue; */
+            width: 400px;
+            height: 180px;
+
+        }
+
+        .img-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 25px 25px 0px 0px;
+
+        }
+
+        .text-container {
+            /* border: 2px solid black; */
+            padding: 0 30px;
+
+        }
+
+        .text-container p {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin-top: 10px;
+            color: rgb(141, 140, 140);
+        }
+        .text-container h3 {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin-top: 10px;
+            font-family: okra;
+        }
+
+        @media (max-width :400px) {
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent-container">
+        <div class="card-container">
+            <div class="img-container">
+                <img src="./image/happy-new-year-2020-facebook-and-whatsapp-messages-and-wishes.webp" alt="">
+            </div>
+            <div class="text-container">
+                <h3>Order Online</h3>
+                <p>Stay home and order to your door step</p>
+            </div>
+        </div>
+        <div class="card-container">
+            <div class="img-container">
+                <img src="./image/happy-new-year-2020-facebook-and-whatsapp-messages-and-wishes.webp" alt="">
+            </div>
+            <div class="text-container">
+                <h3>Order Online</h3>
+                <p>Stay home and order to your door step</p>
+            </div>
+        </div>
+        <div class="card-container">
+            <div class="img-container">
+                <img src="./image/happy-new-year-2020-facebook-and-whatsapp-messages-and-wishes.webp" alt="">
+            </div>
+            <div class="text-container">
+                <h3>Order Online</h3>
+                <p>Stay home and order to your door step</p>
+            </div>
+        </div>
+        <div class="card-container">
+            <div class="img-container">
+                <img src="./image/happy-new-year-2020-facebook-and-whatsapp-messages-and-wishes.webp" alt="">
+            </div>
+            <div class="text-container">
+                <h3>Order Online</h3>
+                <p>Stay home and order to your door step</p>
+            </div>
+        </div>
+        <div class="card-container">
+            <div class="img-container">
+                <img src="./image/happy-new-year-2020-facebook-and-whatsapp-messages-and-wishes.webp" alt="">
+            </div>
+            <div class="text-container">
+                <h3>Order Online</h3>
+                <p>Stay home and order to your door step</p>
+            </div>
+        </div>
+        <div class="card-container">
+            <div class="img-container">
+                <img src="./image/happy-new-year-2020-facebook-and-whatsapp-messages-and-wishes.webp" alt="">
+            </div>
+            <div class="text-container">
+                <h3>Order Online</h3>
+                <p>Stay home and order to your door step</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
