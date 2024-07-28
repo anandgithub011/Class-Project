@@ -56,10 +56,13 @@ console.log("Hi JavaScript");
 
 // =========  (**=) operator ===================//
 
-let x = 10;
-let y = 2;
-x **= y; 
+// let x = 10;
+// let y = 2;
+// x **= y; 
 
 // x = x ** y; //  10^2 = 100;
 
-console.log(x);
+// console.log(x);
+// console.log(3-"true");
+let 3name = 10;
+console.log(3name);
