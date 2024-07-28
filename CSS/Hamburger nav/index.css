@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+nav {
+    height: 70px;
+    background-color: rgb(8, 108, 165);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 65px;
+}
+
+.logo-container {
+    color: aliceblue;
+    font-size: 34px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav-list-container {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 18px;
+}
+
+.nav-list-container a {
+    color: aliceblue;
+    text-decoration: none;
+    transition: all;
+    transition: 0.5s;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav-list-container a:hover {
+    color: red;
+}
+
+.hamburger-cont {
+    display: none;
+}
+
+.outer-nav-list {
+    display: none;
+}
+
+
+
+
+.content {
+    padding: 0 40px;
+}
+
+#contact {
+    display: none;
+    /* width: 200px;
+    height: 100px; */
+    background-color: lightblue;
+    border: 1px solid #000;
+    margin-top: 20px;
+    padding: 10px;
+
+}
+
+#contact:target {
+    display: block;
+}
+#contact h3 {
+    display: block;
+}
+
+@media (max-width:750px) {
+    .nav-list-container {
+        display: none;
+    }
+
+    .hamburger-cont {
+        display: block;
+    }
+
+    .hamburger-cont i {
+        font-size: 35px;
+        color: aliceblue;
+        transition-delay: 0s;
+        transition: 0.3s;
+    }
+
+    .hamburger-cont i:hover {
+        color: rgb(249, 80, 80);
+    }
+
+    
+    .outer-nav-list a {
+        text-decoration: none;
+        color: aliceblue;
+        font-size: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        transition: 0.3s;
+        padding: 10px;
+
+    }
+    
+    .outer-nav-list a:hover {
+        color: rgb(252, 46, 39);
+        background-color: aliceblue;
+    }
+    
+    #outer{
+        display: none;
+    }
+
+    body {
+        position: relative;
+    }
+    
+    #outer:target {
+        display: block;
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        height: 250px;
+        /* position: relative; */
+        position: absolute;
+        left: 485px;
+        top: 1px;
+    }
+    .outer-nav-list {
+        /* display: flex;
+        flex-direction: column; */
+        background-color: rgb(81, 178, 227);
+    }
+
+    .home-close{
+        display: flex;
+        justify-content: space-between;
+    }
+    .home-close #close{
+        color: #fe0606;
+        font-weight: bolder;
+    }
+}
+
+
