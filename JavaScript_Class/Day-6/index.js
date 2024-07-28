@@ -64,5 +64,5 @@ console.log("Hi JavaScript");
 
 // console.log(x);
 // console.log(3-"true");
-let 3name = 10;
-console.log(3name);
+// let 3name = 10;
+// console.log(3name);
