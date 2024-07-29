@@ -5,8 +5,8 @@ body{
     height: 100vh;
 }
 section {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 800px;
     border: 40px solid grey;
     border-radius: 50%;
     border-top: 40px solid rgb(6, 187, 6);
@@ -16,7 +16,7 @@ section {
     animation-name: circle;
     animation-timing-function: linear;
     animation-delay: 0s;
-    animation-duration: 1s;
+    animation-duration: 2s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
 }
