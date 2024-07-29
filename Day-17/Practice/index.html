@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Click to Show Box</title>
+    <style>
+        /* Initially hide the box */
+        #box {
+            display: none;
+            width: 200px;
+            height: 100px;
+            background-color: lightblue;
+            border: 1px solid #000;
+            margin-top: 20px;
+            padding: 10px;
+            /* position: relative;
+            top: -60px; */
+        }
+
+        /* Show the box when the target is active */
+        #box:target {
+            display: block;
+        }
+
+        /* Style for the button */
+        button {
+            display: block;
+            /* margin: 20px 0; */
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Link that targets the box -->
+    <a href="#box"><button>Show Box</button></a>
+
+    <!-- The box that will be shown/hidden -->
+    <div id="box">
+        This is a box that appears when you click the button.
+        <br>
+        <a href="#bx">Close</a>
+    </div>
+</body>
+
+</html>
