@@ -62,6 +62,14 @@ console.log("Hi" + 2 + 3);  //Hi23
 console.log(1 - Symbol);  //NaN
 console.log(typeof ("Hi" - 1));   //number
 
+
+
+// console.log(typeof let);// undefined
+// console.log(typeof var);// Uncaught SyntaxError: Unexpected token 'var' 
+// console.log(typeof const);  //Uncaught SyntaxError:Unexpected token 'const' 
+
+
+
 // // ====EXPLICIT TYPE CASTING=====//
 // let num1 = Number(prompt("Enter your first number"));
 // console.log(num1);
