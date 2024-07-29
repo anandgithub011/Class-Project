@@ -20,7 +20,7 @@ div {
 
 @keyframes heart {
     from{
-        font-size: 400px;
+        font-size: 300px;
     }
     to{
         font-size: 500px;
