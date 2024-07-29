@@ -68,9 +68,18 @@ console.log("Hi JavaScript");
 // let y = "100";
 // console.log(x !== y); //true
 
+
+// let x = "200";
+// let y = "100";
+// console.log(x !== y); //true
+
 // let x = 100;
 // let y = 100;
 // console.log(x !== y); //false
+
+// let x = 20;
+// let y = 200;
+// console.log(x !== y); //true
 
 
 
@@ -85,6 +94,16 @@ console.log("Hi JavaScript");
 // console.log(x > y); //true
 
 
+// let x = "100";
+// let y = 100;
+// console.log(x > y); //false
+
+// let x = 100;
+// let y = 100;
+// console.log(x > y); //false
+
+
+
 // 6. (<) less than-----------------------------//
 
 // let x = 100;
@@ -95,6 +114,15 @@ console.log("Hi JavaScript");
 // let y = 100;
 // console.log(x < y); //false
 
+// let x = "100";
+// let y = 100;
+// console.log(x < y); //false
+
+// let x = 100;
+// let y = 100;
+// console.log(x < y); //false
+
+
 
 // 7. (>=) greater than or equal to------------------------//
 
@@ -104,6 +132,14 @@ console.log("Hi JavaScript");
 
 // let x = 100;
 // let y = 100;
+// console.log(x >= y); //true
+
+// let x = "100";
+// let y = 100;
+// console.log(x >= y); //true
+
+// let x = "100";
+// let y = "100";
 // console.log(x >= y); //true
 
 // let x = 200;
@@ -126,6 +162,14 @@ console.log("Hi JavaScript");
 // let y = 100;
 // console.log(x <= y); //false
 
+// let x = "100";
+// let y = "100";
+// console.log(x <= y); //true
+
+// let x = "100";
+// let y = 100;
+// console.log(x <= y); //true
+
 
 // 9. Ternary operators -------------------------------//
 
@@ -137,4 +181,6 @@ console.log("Hi JavaScript");
 //     console.log("You Can't Access!!!!!");
 // }
 
-// (age >= 20) ? console.log("You can Access..."): console.log("You Can't Access!!!!!");n ni
+// (age >= 20) ? console.log("You can Access..."): console.log("You Can't Access!!!!!");
+
+// console.log(typeof 2-2);
