@@ -10,7 +10,7 @@ console.log("Hi JavaScript");
 // let demo = "Hi";
 // let demo1 = "World";
 // let res = demo +" "+demo1;
-// console.log(res);
+// console.log(res);  //Hi World
 
 
 // let demo = "200";
@@ -40,10 +40,9 @@ console.log("Hi JavaScript");
 // console.log(x < 101 && y < 300); //true
 
 
-
-let x = 100;
-let y = 200;
-console.log(x < 20 && y < 300); //false
+// let x = 100;
+// let y = 200;
+// console.log(x < 20 && y < 300); //false
 
 
 
@@ -78,11 +77,13 @@ console.log(x < 20 && y < 300); //false
 
 
 
+// ~~~~~~~~~~~~~=================SCOPE===============~~~~~~~~~~~//
+
 // ~ SCOPE: Scope in JavaScript refers to the current context of code, which determine the accessibility of variables to JavaScript.
 
 // GLobal Scope=================//
 // Script Scope=================//
-// Function Scope================//
+// Function Scope / Local Scope================//
 
 
 
@@ -103,24 +104,6 @@ console.log(x < 20 && y < 300); //false
 // console.log(a);
 // console.log(b);
 // console.log(c);
-
-
-
-//==================== Function Scope : ==============================//
-// If you declare a variable with var inside a function, it is scoped to that function only.
-
-// function myFunction() {
-//     var functionVar = "I am a function-scoped variable";
-//     console.log(functionVar); // Accessible here
-// }
-
-// myFunction();
-// console.log(functionVar); // ReferenceError: functionVar is not defined
-
-
-
-
-
 
 
 
@@ -146,14 +129,26 @@ console.log(x < 20 && y < 300); //false
 
 //     }
 
-// console.log(d);
-// console.log(e);  //index.js:28  Uncaught ReferenceError: e is not defined
-// console.log(f);   //index.js:29  Uncaught ReferenceError: f is not defined
+// console.log(d);  //400 (Accessible here)
+// console.log(e);  // Uncaught ReferenceError: e is not defined
+// console.log(f);   // Uncaught ReferenceError: f is not defined
 
 
 
-// ~Local Scope: ==========================================//
+// ~Local Scope / Function Scope: ==========================================//
 //  Any Variable that you declared inside a function is said to have local Scope.
+
+//==================== Function Scope/Local Scope : ==============================//
+// If you declare a variable with var inside a function, it is scoped to that function only.
+
+// function myFunction() {
+//     var functionVar = "I am a function-scoped variable";
+//     console.log(functionVar); // Accessible here
+// }
+
+// myFunction();
+// console.log(functionVar); // ReferenceError: functionVar is not defined
+
 
     // var a = 100;
     // let b = 200;
@@ -176,4 +171,18 @@ console.log(x < 20 && y < 300); //false
     // console.log(e);  //index.js:51  Uncaught ReferenceError: e is not defined
     // console.log(f);   //index.js:51  Uncaught ReferenceError: f is not defined
 
-    
+// a = "Hello"
+// b = "\tHi"
+// console.log(a  + b);
+
+// console.log("Hello"+"\tWorld")
+
+let demo = function(){
+
+    // console.log("dcgdfs");
+       return "hibjbskjf" 
+}
+
+// console.log(demo());
+demo();
+
