@@ -6,9 +6,9 @@ console.log("Hi JavaScript");
 })()
 
 
-(let demo = ()=>{
-    console.log("Hi");
-})();
+// (let demo = ()=>{
+//     console.log("Hi");
+// })();
 
 
 
