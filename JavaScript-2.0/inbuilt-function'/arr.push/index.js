@@ -7,6 +7,11 @@
 // push method returns new lengthof the Array.
 // push methos affects original Array.
 
+
+
+
+
+
 let colors = ['red','green','blue','pink','blue','orange'];
 
 console.log(colors);  //(6) ['red', 'green', 'blue', 'pink', 'blue', 'orange']
