@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    border: 2px solid red;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    /* border: 2px solid yellow; */
+    border-radius: 30px;
+    background-color: rgba(130, 185, 249, 0.279);
+    width: 55%;
+    height: 550px;
+}
