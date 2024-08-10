@@ -14,7 +14,7 @@
 
 
 
-
+// =====================================================================================================
 // lastIndexOf(arg1,arg2) Method: 
 // Returns the index of the last occurrence of a specified value in an array, or -1 if it is not present.
 
@@ -22,6 +22,7 @@
 
 // @param fromIndex — The array index at which to begin searching backward. If fromIndex is omitted, the search starts at the last index in the array.
 
+// =====================================================================================================
 
 
 let colors = ['red','green','blue','pink','yellow','orange'];
@@ -43,4 +44,4 @@ console.log(indexPosition3);  // -1 (by default)
 
 console.log(indexPosition4);  // -1 (by default)
 
-console.log(colors);  //(6) ['red','green','blue','pink','yellow','orange']lastI
+console.log(colors);  //(6) ['red','green','blue','pink','yellow','orange']
