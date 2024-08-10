@@ -4,7 +4,9 @@
 // It accepts only two-arguments,where the 1st-argument is index-position, from where to start the cutting And,
 // 2nd-argument is n-index positiojn till where to cut, but second argument is excluded.
 // 1st-argument is included and the 2nd-argument is excluded index-position.
+
 // it returns the array of sliced/removed element.
+
 // It doesn't affect the original array.
 
 
