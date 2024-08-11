@@ -1,9 +1,9 @@
 
+// !fill(arg1,arg2,arg3)  Method:
 
 
-
-
-// fill(arg1,arg2,arg3)  Method: It is used to replace array elements with new elements, which is passed in 1st-argument.
+//* fill(arg1,arg2,arg3)  Method:
+//  It is used to replace array elements with new elements, which is passed in 1st-argument.
 
 // it accepts three arguments where the
 // 1st-arguments is new element. and the
@@ -20,9 +20,8 @@
 
 
 // ====================================================================================================================
-
-
-// fill(arg1,arg2,arg3)  Method:
+//* fill(arg1,arg2,arg3)  Method:
+// (method) Array<string>.fill(value: string, start?: number, end?: number): string[]
 // Changes all array elements from start to end index to a static value and returns the modified array
 
 // @param value — value to fill array section with
@@ -32,8 +31,6 @@
 
 // @param end
 // index to stop filling the array at. If end is negative, it is treated as length+end.
-
-
 
 // ====================================================================================================================
 
@@ -49,15 +46,15 @@ console.log(colors); //(6) ['red','green','blue','pink','yellow','orange']
 
 
 let newArr1 = colors.fill('black'); 
-// let fdccdc = colors.fill('dbbd',0,1);
+let fdccdc = colors.fill('dbbd',0,1);
 
 
 console.log(newArr1);  //
-// console.log(fdccdc);  //
+console.log(fdccdc);  //
 // console.log(newArr2);  //
 
-// It affects the original array.
-// console.log(colors);  //
+// *It affects the original array.
+console.log(colors);  //
 
 
 
