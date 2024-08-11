@@ -1,4 +1,5 @@
 
+//! findInde(ele,index,Entire_arr) method:
 
 //? findInde(ele,index,Entire_arr) method:
 // It is used to get the index-position which satisfied the condition w.r.to true/false.
@@ -18,7 +19,7 @@
 
 // ===================================================================================================
 //? findIndex(ele,index,Entire_arr) method:
-
+// (method) Array<number>.findIndex(predicate: (value: number, index: number, obj: number[]) => unknown, thisArg?: any): number
 // Returns the index of the first element in the array where predicate is true, and -1 otherwise.
 
 // @param predicate
@@ -32,25 +33,21 @@
 
 
 
-
-
-
-
 // let number = [3,6,1,7,4,19,2,9];
 
 // let res = number.findIndex((ele,index,Entir_arr)=>{
 
-//     return ele > 4;  //(true)
+//     return ele > 4;  //* (true)
 // })
 
-// console.log(res); //*1
+// console.log(res); //* 1
 
 
 // let number = [3,6,1,7,4,19,2,9];
 
 // let res = number.findIndex((ele,index,Entir_arr)=>{
 
-//     return ele > 34;  //(falsy value)
+//     return ele > 34;  //* (falsy value)
 // })
 
 // console.log(res); //*-1
@@ -61,7 +58,7 @@
 
 // let res = number.findIndex((ele,index,Entir_arr)=>{
 
-//     return 33; //(truthy value)
+//     return 33; //* (truthy value)
 // })
 
 // console.log(res); //* 0
@@ -73,7 +70,7 @@ let number = [13,6,1,7,4,19,2,9];
 
 let res = number.findIndex((ele,index,Entir_arr)=>{
 
-    return -0; //(falsy value)
+    return -0; //* (falsy value)
 })
 
 console.log(res); //* -1(by default)
@@ -85,7 +82,7 @@ console.log(res); //* -1(by default)
 
 // let res = number.find((ele,index,Entir_arr)=>{
 
-//     return 54; //(true)
+//     return 54; //* (true)
 //     // return "wedsf"; //(true)
 //     // return {}; //(true)
 //     // return []; //(true)
