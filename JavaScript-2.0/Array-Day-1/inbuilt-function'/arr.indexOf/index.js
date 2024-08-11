@@ -1,5 +1,7 @@
+//! indexOf(arg1,arg2) Method:
 
-// indexOf(arg1,arg2) Method: It is used to get the index-position from the given element in 1st-argument.
+//* indexOf(arg1,arg2) Method:
+//  It is used to get the index-position from the given element in 1st-argument.
 
 // It accepts two arguments, where the 
 // 1st-argument is the element to be searching And, the
@@ -14,7 +16,8 @@
 
 // ===================================================================================================
 
-// indexOf(arg1,arg2) Method:
+//* indexOf(arg1,arg2) Method:
+// (method) Array<string>.indexOf(searchElement: string, fromIndex?: number): number*
 // Returns the index of the first occurrence of a value in an array, or -1 if it is not present.
 
 // @param searchElement — The value to locate in the array.
@@ -28,7 +31,7 @@
 
 let colors = ['red','green','blue','pink','yellow','orange'];
 
-console.log(colors); //(6) ['red','green','blue','pink','yellow','orange'];
+console.log(colors); //*(6) ['red','green','blue','pink','yellow','orange'];
 
 let indexPosition1 = colors.indexOf('pink');
 let indexPosition2 = colors.indexOf('pink',4);
@@ -37,8 +40,8 @@ let indexPosition4 = colors.indexOf('yellow',4);
 let C = colors.indexOf('pink');
 
 
-console.log(indexPosition1);  // 3  (index-position)
-console.log(indexPosition2);  // -1 (by default)
-console.log(indexPosition3);  // -1 (by default)
-console.log(indexPosition4);  // 4 (index-position)
-console.log(colors);  //(6) ['red','green','blue','pink','yellow','orange'];
+console.log(indexPosition1);  //* 3  (index-position)
+console.log(indexPosition2);  //* -1 (by default)
+console.log(indexPosition3);  //* -1 (by default)
+console.log(indexPosition4);  //* 4 (index-position)
+console.log(colors);  //*(6) ['red','green','blue','pink','yellow','orange'];
