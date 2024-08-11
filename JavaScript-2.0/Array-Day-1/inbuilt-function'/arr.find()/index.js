@@ -1,3 +1,4 @@
+//! find(ele,index,Entire_arr) method:
 
 
 //? find(ele,index,Entire_arr) method:
@@ -18,6 +19,7 @@
 
 // ===================================================================================================
 //? find(ele,index,Entire_arr) method:
+// (method) Array<number>.find(predicate: (value: number, index: number, obj: number[]) => unknown, thisArg?: any): number | undefined (+1 overload)
 // Returns the value of the first element in the array where predicate is true, and undefined otherwise.
 
 // @param predicate
@@ -38,7 +40,7 @@
 
 // let res = number.find((ele,index,Entir_arr)=>{
 
-//     return ele > 4;  //(true)
+//     return ele > 4;  //* (true)
 // })
 
 // console.log(res); //*6
@@ -49,7 +51,7 @@
 
 // let res = number.find((ele,index,Entir_arr)=>{
 
-//     return ele > 54; //(false)
+//     return ele > 54; //* (false)
 // })
 
 // console.log(res); //* undefined (by default)
@@ -62,10 +64,10 @@ let number = [123,6,1,7,4,19,2,9];
 let res = number.find((ele,index,Entir_arr)=>{
 
     return 54; //(true)
-    // return "wedsf"; //(true)
-    // return {}; //(true)
-    // return []; //(true)
-    // return -1; //(true)
+    // return "wedsf"; //* (true)
+    // return {}; //* (true)
+    // return []; //* (true)
+    // return -1; //* (true)
 })
 
 console.log(res); //* 123
