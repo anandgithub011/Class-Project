@@ -1,4 +1,5 @@
 
+//! forEach(ele,index,Entire_Array) Method:
 
 
 //? forEach(ele,index,Entire_Array) Method:
@@ -20,13 +21,14 @@
 
 
 // ========================================================================================================================
-// forEach(ele,index,Entire_Array) Method:
+//? forEach(ele,index,Entire_Array) Method:
+// (method) Array<number>.forEach(callbackfn: (value: number, index: number, array: number[]) => void, thisArg?: any): void
+
 // Performs the specified action for each element in an array.
 
 // @param callbackfn — A function that accepts up to three arguments. forEach calls the callbackfn function one time for each element in the array.
 
 // @param thisArg — An object to which the this keyword can refer in the callbackfn function. If thisArg is omitted, undefined is used as the this value.
-
 // ========================================================================================================================
 
 
@@ -37,7 +39,7 @@ let num = [3,6,1,7,4,19,2,9];
 
 //     return 'hello';
 // })
-// console.log(res);  //undefined
+// console.log(res);  //* undefined
 
 
 
@@ -46,11 +48,11 @@ let num = [3,6,1,7,4,19,2,9];
 
 // let res = num.forEach((ele,index,Entire_Array)=> {
     
-//     console.log("hello");  //(length of element-times)hello will be printed
+//     console.log("hello");  //* (length of element-times)hello will be printed
 //     return 'hello';
 // })
 
-// console.log(res);  //undefined
+// console.log(res);  //* undefined
 
 
 
@@ -60,5 +62,5 @@ let res = num.forEach((ele,index,Entire_Array)=> {
     return 'hello';
 })
 
-console.log(res);  //undefined
+console.log(res);  //* undefined
 
