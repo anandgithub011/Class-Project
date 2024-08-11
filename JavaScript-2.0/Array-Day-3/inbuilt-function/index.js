@@ -1,5 +1,5 @@
 
-//! how to check the condition either truthy and falsy.=========
+//! how to check the condition either truthy or falsy.=========
 
 // if(-1){  //truthy/falsy
 //     console.log("hello");
