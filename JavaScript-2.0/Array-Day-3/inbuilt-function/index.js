@@ -1096,12 +1096,13 @@
 
 
 
-// let num = [3,6,1,7,4,19,2,9];
+let num1 = [3,6,1,7,4,19,2,9];
 
-// let res = num.filter((e,i)=>{
-//     return e-4;  
-// })
-// console.log(res);  //*(7) [3, 6, 1, 7, 19, 2, 9]
+let res1 = num1.filter(e=>{
+    return e-3;  
+})
+console.log(res1);  //*(7) [3, 6, 1, 7, 19, 2, 9]
+
 
 
 
@@ -1241,7 +1242,7 @@
 
 // let number = [13,6,1,7,4,19,2,9];
 
-// let res = number.find((ele,index,Entir_arr)=>{
+// let res = number.find((ele,index,Entire_arr)=>{
 
 //     return ele > 4;  //* (true)
 // })
@@ -1252,7 +1253,7 @@
 
 // let number = [13,6,1,7,4,19,2,9];
 
-// let res = number.find((ele,index,Entir_arr)=>{
+// let res = number.find((ele,index,Entire_arr)=>{
 
 //     return ele > 54; //* (false)
 // })
@@ -1264,7 +1265,7 @@
 
 // let number = [123,6,1,7,4,19,2,9];
 
-// let res = number.find((ele,index,Entir_arr)=>{
+// let res = number.find((ele,index,Entire_arr)=>{
 
 //     return 54; //(true)
 //     // return "wedsf"; //* (true)
@@ -1296,9 +1297,9 @@
 
 
 
-//! findInde(ele,index,Entire_arr) method:
+//! findIndex(ele,index,Entire_arr) method:
 
-//? findInde(ele,index,Entire_arr) method:
+//? findIndex(ele,index,Entire_arr) method:
 // It is used to get the index-position which satisfied the condition w.r.to true/false.
 
 // It accept one-argument where the argument is a callback function.
@@ -1332,7 +1333,7 @@
 
 // let number = [3,6,1,7,4,19,2,9];
 
-// let res = number.findIndex((ele,index,Entir_arr)=>{
+// let res = number.findIndex((ele,index,Entire_arr)=>{
 
 //     return ele > 4;  //* (true)
 // })
@@ -1342,18 +1343,18 @@
 
 // let number = [3,6,1,7,4,19,2,9];
 
-// let res = number.findIndex((ele,index,Entir_arr)=>{
+// let res = number.findIndex((ele,index,Entire_arr)=>{
 
 //     return ele > 34;  //* (falsy value)
 // })
 
-// console.log(res); //*-1
+// console.log(res); //* -1  (by default)
 
 
 
 // let number = [13,6,1,7,4,19,2,9];
 
-// let res = number.findIndex((ele,index,Entir_arr)=>{
+// let res = number.findIndex((ele,index,Entire_arr)=>{
 
 //     return 33; //* (truthy value)
 // })
@@ -1363,14 +1364,24 @@
 
 
 
-let number = [13,6,1,7,4,19,2,9];
+// let number = [13,6,1,7,4,19,2,9];
 
-let res = number.findIndex((ele,index,Entir_arr)=>{
+// let res = number.findIndex((ele,index,Entire_arr)=>{
 
-    return -0; //* (falsy value)
-})
+//     return -0; //* (falsy value)
+// })
 
-console.log(res); //* -1 (by default)
+// console.log(res); //* -1 (by default)
+
+
+// let number = [13,6,1,7,4,19,2,9];
+
+// let res = number.findIndex((ele,index,Entire_arr)=>{
+
+//     return 2; //* (truthy value)
+// })
+
+// console.log(res); //* 0
 
 
 
