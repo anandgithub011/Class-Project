@@ -55,7 +55,8 @@
 // // let arr = [3, 6, 9, 5, 9, 8, 6];
 // isGreater(arr);
 
-//~ WAP to using inbuilt function,check if all the element of array is greater than 6 then return true, if any one element less than 6 then return alse?
+// ~every method
+// ~ WAP to using inbuilt function,check if all the element of array is greater than 6 then return true, if any one element less than 6 then return alse?
 
 // let numArr = [13, 16, 19, 15, 19, 28, 16];
 // // let numArr = [3, 6, 9, 5, 9, 8, 6];
@@ -87,20 +88,29 @@
 // let numArr = [3, 2, 3, 5, 4, 3, 1]; //* false
 // isgreater(numArr);
 
-
-
-
 //~ WAP to using inbuilt function,check if any one of the element of array is greater than 6 then return true, if any one element less than 6 then return alse?
 
-let numArr = [3, 2, 3, 5, 4, 3, 1];
-// let numArr = [3, 6, 9, 5, 9, 8, 6]; 
+// let numArr = [3, 2, 3, 5, 4, 3, 1];
+// // let numArr = [3, 6, 9, 5, 9, 8, 6];
 
-let res = numArr.some((ele) => {
-    console.log("hello")
-    return ele>6;
-});
-console.log(res);
+// let res = numArr.some((ele) => {
+//     console.log("hello")
+//     return ele>6;
+// });
+// console.log(res);
 
+
+
+
+// if there is  no element inside the array and we want to use map method than return only empty array{}
+// let numArr = [3, 2, 3, 5, 4, 3, 1];
+
+let numArr = [];
+
+let res = numArr.filter(ele=>{
+    return ele > 9;
+})
+console.log(res);  //* []
 
 
 
