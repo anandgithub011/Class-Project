@@ -1,5 +1,6 @@
+//! map(ele,index,Entire_Array) Method: 
 
-// map(ele,index,Entire_Array) Method: 
+//? map(ele,index,Entire_Array) Method: 
 // It is used to perform modification on existing array of elements, index and entire Array.
 
 // It accept one-argument where the argument is a callback function.
@@ -16,7 +17,9 @@
 
 
 // ===============================================================================================================
-// map(ele,index,Entire_Array) Method: 
+//? map(ele,index,Entire_Array) Method: 
+// (method) Array<number>.map<boolean>(callbackfn: (value: number, index: number, array: number[]) => boolean, thisArg?: any): boolean[]
+
 // Calls a defined callback function on each element of an array, and returns an array that contains the results.
 
 // @param callbackfn — A function that accepts up to three arguments. The map method calls the callbackfn function one time for each element in the array.
@@ -30,11 +33,11 @@
 
 // let res = num.map((ele,index,Entire_Array)=> {
 
-//     console.log("hey"); //hey will be printed 8-times
+//     console.log("hey"); //* hey will be printed 8-times
 //     return 'hello';
 // })
 
-// console.log(res);  // ['hello','hello','hello','hello','hello','hello','hello','hello']
+// console.log(res);  //*  ['hello','hello','hello','hello','hello','hello','hello','hello']
 
 
 
@@ -46,7 +49,7 @@
 //     return ele + 3; 
     
 // })
-// console.log(res); //[6,9,4,10,7,22,5,12]
+// console.log(res); //* [6,9,4,10,7,22,5,12]
 
 
 
@@ -60,5 +63,5 @@ let res = num.map((ele,index,Entire_Array)=> {
     
 })
 
-console.log(res);   //[false,true,false,true,true,false,true];
+console.log(res);   //* [false,true,false,true,true,false,true];
 
