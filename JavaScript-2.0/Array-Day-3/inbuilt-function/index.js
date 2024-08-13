@@ -1,4 +1,3 @@
-
 //! how to check the condition either truthy or falsy.=========
 
 // if(-1){  //truthy/falsy
@@ -21,9 +20,6 @@
 
 // ! inbuilt function-method  =================================>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-
-
-
 //!push():
 
 //? push() Method:
@@ -34,7 +30,6 @@
 // push method returns new lengthof the Array.
 // push methos affects original Array.
 
-
 // ==============================================================================================
 //? push() Method:
 // (method) Array<string>.push(...items: string[]): number
@@ -42,12 +37,6 @@
 // @param items — New elements to add to the array.
 
 // ==============================================================================================
-
-
-
-
-
-
 
 // let colors = ['red','green','blue','pink','blue','orange'];
 
@@ -65,19 +54,6 @@
 
 // console.log(newLength); //*8
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 //! unshift() Method:
 
 //?unshift() Method:
@@ -88,7 +64,6 @@
 // unshift() method returns new length of the Array.
 // unshift() methos affects original Array.
 
-
 // ===========================================================================================
 //?unshift() Method:
 // (method) Array<string>.unshift(...items: string[]): number
@@ -98,14 +73,10 @@
 
 // ===========================================================================================
 
-
-
-
 // let colors = ['red','green','blue','pink','blue','orange'];
 
 // console.log(colors);  //*(6) ['red', 'green', 'blue', 'pink', 'blue', 'orange']
 // console.log(colors.length); //*6
-
 
 // console.log("-------------==================-----------");
 
@@ -115,19 +86,11 @@
 // console.log(colors);  // * (8) ['purple', 'black', 'red', 'green', 'blue', 'pink', 'blue', 'orange']
 // console.log(newLength);// *8
 
-
-
-
-
-
-
-
-
-//!pop() Method: 
+//!pop() Method:
 
 //? reverse of shift() method >>>>>>>>>>>>>>>>>>>>>.
 
-//? pop() Method: 
+//? pop() Method:
 // Removes the last element from an array and returns it. If the array is empty, undefined is returned and the array is not modified.
 // >>>>>>>>>>>>
 // pop() method is used to remove the last element of the Array.
@@ -137,20 +100,12 @@
 
 //* Note: If Array is empty then, pop() and shift() methods returned undefined.
 
-
-
-
-
 // ===============================================================================================
-//? pop() Method: 
+//? pop() Method:
 // (method) Array<string>.pop(): string | undefined
 // Removes the last element from an array and returns it. If the array is empty, undefined is returned and the array is not modified.
 
 // ===============================================================================================
-
-
-
-
 
 // let colors = ['red','green','blue','pink','blue','orange'];
 // // let colors = []; //* output will be undefined
@@ -160,20 +115,12 @@
 
 // console.log("=================================");
 
-
 // let deletedElements = colors.pop();
 
 // console.log(colors); //* (5) ['red', 'green', 'blue', 'pink', 'blue']
 // console.log(deletedElements); //* orange
 
-
-
-
-
-
-
 //! shift() Method:
-
 
 // Reverse of pop() method>>>>>>>>>>>>>>>>>>>.
 
@@ -187,24 +134,12 @@
 
 // *Note: If Array is empty then, pop() and shift() methods returned undefined.
 
-
-
-
-
-
-
-
 // ========================================================================================
 //? shift() Method:
 // (method) Array<string>.shift(): string | undefined
 // Removes the first element from an array and returns it. If the array is empty, undefined is returned and the array is not modified.
 
 // ========================================================================================
-
-
-
-
-
 
 // let colors = ['red','green','blue','pink','blue','orange'];
 // // let colors = []; // output will be undefined
@@ -214,28 +149,13 @@
 
 // console.log("=================================");
 
-
 // //* shift() method returns the deleted element/removed element.
 // let deletedElements = colors.shift();
 
 // console.log(colors); //*  (5) ['green', 'blue', 'pink', 'blue', 'orange']
 // console.log(deletedElements); //*red
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 //! splice Method:
-
 
 //? splice Method:
 // splice method is used to add the elements or delete the elements from the array, based on index position.
@@ -251,10 +171,6 @@
 // If we pass only one argument all the elements will be deleted from the given index number in 1st-argumnets.
 // splice methods affects original array.
 
-
-
-
-
 // ===============================================================================================
 //? splice Method:
 // (method) Array<string>.splice(start: number, deleteCount?: number): string[] (+1 overload)
@@ -268,12 +184,6 @@
 
 // ===============================================================================================
 
-
-
-
-
-
-
 // example:
 
 // let colors = ['red','green','blue','pink','blue','orange','blue'];
@@ -284,16 +194,11 @@
 
 // console.log("=================================");
 
-
 //~splice methods return an array of deleted elements.
 // let deletedElements = colors.splice(3,4,'yellow','violet');
 
 // console.log(colors);      //*(5) ['red', 'green', 'blue', 'yellow', 'violet']
 // console.log(deletedElements);      //*(4) ['pink', 'blue', 'orange', 'blue']
-
-
-
-
 
 //~ splice methods return an array of deleted elements.
 // let deletedElements = colors.splice(3,2,'black','purple');
@@ -302,22 +207,12 @@
 
 // console.log(deletedElements);        //*(2) ['pink', 'blue']
 
-
-
-
-
-
 //~splice methods return an array of deleted elements.
 // let deletedElements = colors.splice(1,4,'purple');
 
 // console.log(colors);      //*--->(4) ['red', 'purple', 'orange', 'blue']
 
 // console.log(deletedElements);      //*--->(4) ['green', 'blue', 'pink', 'blue']
-
-
-
-
-
 
 //~splice methods return an array of deleted elements.
 // let deletedElements = colors.splice(1,0,'pink');
@@ -326,21 +221,12 @@
 
 // console.log(deletedElements);     //*--->[]
 
-
-
-
-
-
 //~ splice methods return an array of deleted elements.
 
 // let deletedElements = colors.splice(4,2);
 // console.log(colors);  //*--->(5) ['red', 'green', 'blue', 'pink', 'blue']
 
 // console.log(deletedElements);   //*--->(2) ['blue', 'orange']
-
-
-
-
 
 //~ splice methods return an array of deleted elements.
 // let deletedElements = colors.splice(2);
@@ -349,32 +235,12 @@
 
 // console.log(deletedElements);   //*--->(5) ['blue', 'pink', 'blue', 'orange', 'blue']
 
-
-
-
-
-
 // ~splice methods return an array of deleted elements.
 // let deletedElements = colors.splice(0);
 
 // console.log(colors);   //*--->[]
 
 // console.log(deletedElements);  //*--->(5) ['red', 'green','blue', 'pink', 'blue', 'orange', 'blue']
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 //! slice(arg1,arg2) Method:
 
@@ -388,8 +254,6 @@
 
 // It doesn't affect the original array.
 
-
-
 // ==========================================================================================================
 //? slice(arg1,arg2) Method:
 //  Returns a copy of a section of an array. For both start and end, a negative index can be used to indicate an offset from the end of the array. For example, -2 refers to the second to last element of the array.
@@ -401,28 +265,13 @@
 // The end index of the specified portion of the array. This is exclusive of the element at the index 'end'. If end is undefined, then the slice extends to the end of the array.
 // ==========================================================================================================
 
-
-
 // let colors = ['red','green','blue','pink','yellow','orange'];
 
-
-// let slicedElement = colors.slice(2,5);  
-
+// let slicedElement = colors.slice(2,5);
 
 // console.log(colors);  //*  (6)['red','green','blue','pink','yellow','orange'];
 
 // console.log(slicedElement);  // *(3) ['blue','pink','yellow']
-
-
-
-
-
-
-
-
-
-
-
 
 //! includes(arg1,arg2) Method:
 
@@ -433,10 +282,6 @@
 // If we dont pass 2nd-argumrnt then its start searching the element from 0-index.
 // It returns a boolean value true, if the element is present else, it returns false.
 // It doesn't affect the original Array
-
-
-
-
 
 // ================================================================================================================
 //? includes(arg1,arg2) Method:
@@ -449,53 +294,27 @@
 
 // ================================================================================================================
 
-
-
-
-
 // let colors = ['red','green','blue','pink','yellow','orange'];
 
-
-// let slicedElement1 = colors.includes('blue',3);  
-// let slicedElement2 = colors.includes('blue');  
-
+// let slicedElement1 = colors.includes('blue',3);
+// let slicedElement2 = colors.includes('blue');
 
 // console.log(colors);  //*  (6)['red','green','blue','pink','yellow','orange'];
 
 // console.log(slicedElement1);  //* false
 // console.log(slicedElement2);  //* true
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //! indexOf(arg1,arg2) Method:
 
 //? indexOf(arg1,arg2) Method:
 //  It is used to get the index-position from the given element in 1st-argument.
 
-// It accepts two arguments, where the 
+// It accepts two arguments, where the
 // 1st-argument is the element to be searching And, the
 // 2nd argument is the index position from where to start the search and going towards
 // If we don't pass 2nd-argument then, it searchs the element from 0-index.
 // it returns the index position of the element,if the element is present ,else it returns -1(by default).
 // It does not affect original array.
-
-
-
-
 
 // ===================================================================================================
 
@@ -508,10 +327,6 @@
 // @param fromIndex — The array index at which to begin the search. If fromIndex is omitted, the search starts at index 0.
 // =====================================================================================================
 
-
-
-
-
 // let colors = ['red','green','blue','pink','yellow','orange'];
 
 // console.log(colors); //*(6) ['red','green','blue','pink','yellow','orange'];
@@ -522,44 +337,27 @@
 // let indexPosition4 = colors.indexOf('yellow',4);
 // let C = colors.indexOf('pink');
 
-
 // console.log(indexPosition1);  //* 3  (index-position)
 // console.log(indexPosition2);  //* -1 (by default)
 // console.log(indexPosition3);  //* -1 (by default)
 // console.log(indexPosition4);  //* 4 (index-position)
 // console.log(colors);  //*(6) ['red','green','blue','pink','yellow','orange'];
 
+//! lastIndexOf(arg1,arg2) Method:
 
-
-
-
-
-
-
-
-
-
-
-
-//! lastIndexOf(arg1,arg2) Method: 
-
-//* lastIndexOf(arg1,arg2) Method: 
+//* lastIndexOf(arg1,arg2) Method:
 // It is used to get the index-position from the given element in 1st-argument.
 
 // By default it searchs from last index of the Array, and going backward direction to find the element.
 
-// It accepts two arguments, where the 
+// It accepts two arguments, where the
 // 1st-argument is the element to be searching And, the
 // 2nd argument is the index position from where to start the search and goes backward.
 // it returns the index position of the element,if the element is present ,else it returns -1(by default).
 // It does not affect original array.
 
-
-
-
-
 // =====================================================================================================
-//* lastIndexOf(arg1,arg2) Method: 
+//* lastIndexOf(arg1,arg2) Method:
 // Returns the index of the last occurrence of a specified value in an array, or -1 if it is not present.
 
 // @param searchElement — The value to locate in the array.
@@ -567,7 +365,6 @@
 // @param fromIndex — The array index at which to begin searching backward. If fromIndex is omitted, the search starts at the last index in the array.
 
 // =====================================================================================================
-
 
 // let colors = ['red','green','blue','pink','yellow','orange'];
 
@@ -579,7 +376,6 @@
 // let indexPosition4 = colors.lastIndexOf('yellow',3);
 // let C = colors.indexOf('pink');
 
-
 // console.log(indexPosition1);  //* 3  (index-position)
 
 // console.log(indexPosition2);  //* 3 (index-position)
@@ -590,75 +386,38 @@
 
 // console.log(colors);  //*(6) ['red','green','blue','pink','yellow','orange']
 
-
-
-
-
-
-
-
-
-
-
-
-
 //! at(arg1) Method:
 
 //? at(arg1) Method:
 // It is used to get the element of array, based on their index-position
-// 
+//
 // It accepts only one argument, where the argument is index-position.
 // It returns the element present in the given index-position as a argument, if the index-position is available, else returns undefined.
 
 // It does not affect Original Array.
 
-
-
-
-
 // let colors = ['red','green','blue','pink','yellow','orange'];
 
 // console.log(colors); //*(6) ['red','green','blue','pink','yellow','orange'];
 
-
-// let element1 = colors.at(3);  
+// let element1 = colors.at(3);
 // console.log(element1);  //*pink
 
-// let element2 = colors.at(8);  
+// let element2 = colors.at(8);
 // console.log(element2);  //* undefined  (by default)
 
 // let element3 = colors.at(-2);    //*(taking last index as a -1 and goes backward direction. so, -2 is yellow)
-// console.log(element3);  //* yellow 
-
+// console.log(element3);  //* yellow
 
 // console.log(colors); //* (6) ['red','green','blue','pink','yellow','orange'];
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //! concat(arg1,....) Method:
-
 
 //? concat(arg1,....) Method:
 // It is used to join the new elements to the existing array, after the last index of an Array.
 // It accepts n-numbers of arguments, where the arguments are new elements to be joined.
 // It returns an array of new joined element.
 // It does not affect the Original Array.
-
-
 
 // ======================================================================================================================
 //? concat(arg1,....) Method:
@@ -669,49 +428,26 @@
 
 // ======================================================================================================================
 
-
-
 // let colors = ['red','green','blue','pink','yellow','orange'];
 
 // console.log(colors); //*(6) ['red','green','blue','pink','yellow','orange']
 
-
 // let joinedElement1 = colors.concat('xyz','mno');
 // let joinedElement2 = colors.concat(['jkl','abc','pqr']);
-
 
 // console.log(joinedElement1); //* (8) ['red','green','blue','pink','yellow','orange','xyz','mno']
 
 // console.log(joinedElement2); //*(9) ['red','green','blue','pink','yellow','orange','jkl','abc','pqr']
 
-
 // console.log(colors); //*(6) ['red','green','blue','pink','yellow','orange']
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 //! reverse() Method :
-
-
 
 //? reverse() Method :
 // It is used to reverse the Array element.
 // It does not have any argument.
 // It returns the Original array with reverse elements.
 // It affects the original Array.
-
-
-
 
 // ==================================================================================================================
 //? reverse() Method :
@@ -720,38 +456,18 @@
 
 // ==================================================================================================================
 
-
-
 // let colors = ['red','green','blue','pink','yellow','orange'];
 
 // console.log(colors); //*(6) ['red','green','blue','pink','yellow','orange']
 
-
 // let reverseArr = colors.reverse();
-
-
-
 
 // console.log(reverseArr);   //*['orange'','yellow','pink','blue','green''red']
 
 // //* It affects the original Array.
 // console.log(colors);    //*['orange'','yellow','pink','blue','green''red']
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 // !fill(arg1,arg2,arg3)  Method:
-
 
 //? fill(arg1,arg2,arg3)  Method:
 //  It is used to replace array elements with new elements, which is passed in 1st-argument.
@@ -763,9 +479,6 @@
 
 // It returns an array of newly replace elements.
 // It affects the original array.
-
-
-
 
 // ====================================================================================================================
 //? fill(arg1,arg2,arg3)  Method:
@@ -782,17 +495,12 @@
 
 // ====================================================================================================================
 
-
-
-
-
 // let colors = ['red','green','blue','pink','yellow','orange'];
 
 // console.log(colors); //*(6) ['red','green','blue','pink','yellow','orange']
 
-// // let newArr1 = colors.fill('black'); 
+// // let newArr1 = colors.fill('black');
 // // console.log(newArr1);  //* (6) (6) ['black', 'black', 'black', 'black', 'black', 'black']
-
 
 // let fdccdc = colors.fill('dbbd',0,1);
 // console.log(fdccdc);  //* (6) ['dbbd', 'green', 'blue', 'pink', 'yellow', 'orange']
@@ -800,19 +508,7 @@
 // // *It affects the original array.
 // console.log(colors);  //* (6) ['dbbd', 'green', 'blue', 'pink', 'yellow', 'orange']
 
-
-
-
-
-
-
-
-
-
-
-
 //! join(arg1)  Method:
-
 
 //? join(arg1)  Method:
 //  It is used to seperate the array elements, with the specific seperator.
@@ -823,10 +519,6 @@
 // It does not affect the Original Array.
 // If we dont any seperator theb pass empty string("") as an argument.
 
-
-
-
-
 // ==================================================================================================================
 //? join(arg1)  Method:
 // (method) Array<string>.join(separator?: string): string
@@ -834,9 +526,6 @@
 
 // @param separator — A string used to separate one element of the array from the next in the resulting string. If omitted, the array elements are separated with a comma.
 // ==================================================================================================================
-
-
-
 
 // let colors = ['red','green','blue','pink','yellow','orange'];
 
@@ -846,32 +535,17 @@
 // let seperateArr2 = colors.join("");
 // let seperateArr3 = colors.join();
 
-
 // console.log(seperateArr1);   //* red-green-blue-pink-yellow-orange
 // console.log(seperateArr2);   //* redgreenbluepinkyelloworange
 // console.log(seperateArr3);   //* red,green,blue,pink,yellow,orange
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 //! forEach(ele,index,Entire_Array) Method:
-
 
 //? forEach(ele,index,Entire_Array) Method:
 //  It is used to iterate array element at index position.
 
 // It accept one-argument where the argument is a callback function.
-// The callback function accepts three-parameter where, the 1st parameter is elements of array, the 
+// The callback function accepts three-parameter where, the 1st parameter is elements of array, the
 // 2nd-paframeter is index-position and the
 // 3rd-parameter is Entire Array.
 
@@ -881,9 +555,6 @@
 //! Note: Use forEach() method only for iteration purpose or else use it as alternative of for-loop, for-in-loop, for-of-loop.
 
 // The callback function of forEach method runs for every elements inside the array, that means it runs the total number of time the elements available inside the array.
-
-
-
 
 // ========================================================================================================================
 //? forEach(ele,index,Entire_Array) Method:
@@ -896,8 +567,6 @@
 // @param thisArg — An object to which the this keyword can refer in the callbackfn function. If thisArg is omitted, undefined is used as the this value.
 // ========================================================================================================================
 
-
-
 // let num = [3,6,1,7,4,19,2,9];
 
 // let res = num.forEach((ele,index,Entire_Array)=> {
@@ -906,22 +575,14 @@
 // })
 // console.log(res);  //* undefined
 
-
-
-
-
-
 // let res = num.forEach((ele,index,Entire_Array)=> {
-    
+
 //     console.log("hello");  //* (length of element-times)hello will be printed
 //     return 'hello';
 // })
 
 // console.log(res);  //* undefined
 
-
-
-
 // let res = num.forEach((ele,index,Entire_Array)=> {
 
 //     return 'hello';
@@ -929,39 +590,21 @@
 
 // console.log(res);  //* undefined
 
+//! map(ele,index,Entire_Array) Method:
 
-
-
-
-
-
-
-
-
-
-
-
-
-//! map(ele,index,Entire_Array) Method: 
-
-//? map(ele,index,Entire_Array) Method: 
+//? map(ele,index,Entire_Array) Method:
 // It is used to perform modification on existing array of elements, index and entire Array.
 
 // It accept one-argument where the argument is a callback function.
-// The callback function accepts three-parameter where, the 1st parameter is elements of array, the 
+// The callback function accepts three-parameter where, the 1st parameter is elements of array, the
 // 2nd-paframeter is index-position and the
 // 3rd-parameter is Entire Array
 
 // map method returns a new Array of values returned by the callback function.
 // map method does not affect original array.
 
-
-
-
-
-
 // ===============================================================================================================
-//? map(ele,index,Entire_Array) Method: 
+//? map(ele,index,Entire_Array) Method:
 // (method) Array<number>.map<boolean>(callbackfn: (value: number, index: number, array: number[]) => boolean, thisArg?: any): boolean[]
 
 // Calls a defined callback function on each element of an array, and returns an array that contains the results.
@@ -970,8 +613,6 @@
 
 // @param thisArg — An object to which the this keyword can refer in the callbackfn function. If thisArg is omitted, undefined is used as the this value
 //=======================================================================================================
-
-
 
 // let num = [3,6,1,7,4,19,2,9];
 
@@ -983,64 +624,37 @@
 
 // console.log(res);  //*  ['hello','hello','hello','hello','hello','hello','hello','hello']
 
-
-
-
 // let num = [3,6,1,7,4,19,2,9];
 
 // let res = num.map((ele,index,Entire_Array)=> {
 
-//     return ele + 3; 
-    
+//     return ele + 3;
+
 // })
 // console.log(res); //* [6,9,4,10,7,22,5,12]
-
-
-
 
 // let num = [3,6,1,7,4,19,2,9];
 
 // let res = num.map((ele,index,Entire_Array)=> {
 
 //     return ele > 3;
-    
+
 // })
 
 // console.log(res);   //* [false,true,false,true,true,false,true];
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //?! filter(ele,index,Entire_Arr) Method:
-
 
 //? filter(ele,index,Entire_Arr) Method:
 // It is used to filter the array elements and get the element in new array based on the condition, whether true or false.
 
 // It accept one-argument where the argument is a callback function.
-// The callback function accepts three-parameter where, the 1st parameter is elements of array, the 
+// The callback function accepts three-parameter where, the 1st parameter is elements of array, the
 // 2nd-paframeter is index-position and the
 // 3rd-parameter is Entire Array.
 
 // filter methods returns an array of element which satisfied the condition, whether its true or false;
 // filter method  does not affect original Array.
-
-
 
 // ================================================================================================================
 //? filter(ele,index,Entire_Arr) Method:
@@ -1052,8 +666,6 @@
 // @param thisArg — An object to which the this keyword can refer in the predicate function. If thisArg is omitted, undefined is used as the this value.
 //===============================================================================================================
 
-
-
 // let num = [3,6,1,7,4,19,2,9];
 
 // let res = num.filter((ele,ind,Entire_Arr)=>{
@@ -1062,9 +674,6 @@
 
 // console.log(res);  //*[6,7,19,9]
 
-
-
-
 // let num = [3,6,1,7,4,19,2,9];
 
 // let res = num.filter((ele,ind,Entire_Arr)=>{
@@ -1072,20 +681,13 @@
 // })
 // console.log(res); //*[]
 
-
-
-
 // let num = [3,6,1,7,4,19,2,9];
 
 // let res = num.filter((ele,i,Entire_Arr)=>{
 //     return i;
 // })
 // console.log(res); //*[6,1,7,4,19,2,9]
-    
-    
-    
-    
-    
+
 // let num = [3,6,1,7,4,19,2,9];
 
 // let res = num.filter((e,i)=>{
@@ -1096,13 +698,12 @@
 
 
 
-let num1 = [3,6,1,7,4,19,2,9];
+// let num1 = [3, 6, 1, 7, 4, 19, 2, 9];
 
-let res1 = num1.filter(e=>{
-    return e-3;  
-})
-console.log(res1);  //*(7) [3, 6, 1, 7, 19, 2, 9]
-
+// let res1 = num1.filter((e) => {
+//   return e - 3;
+// });
+// console.log(res1); //*(7) [ 6, 1, 7, 4, 19, 2, 9]
 
 
 
@@ -1113,42 +714,28 @@ console.log(res1);  //*(7) [3, 6, 1, 7, 19, 2, 9]
 // })
 // console.log(res); //*[3,6,1,7,4,19,2,9]
 
-
-
 // let num = [3,6,1,7,4,19,2,9];
 
 // let res = num.filter((e)=>{
-//     return "dsds";  //(true) 
+//     return "dsds";  //(true)
 // })
 // console.log(res); //*[3,6,1,7,4,19,2,9]
-
-
-
 
 // let num = [3,6,1,7,4,19,2,9];
 
 // let res = num.filter((e)=>{
 //     return 2+undefined;  //* NaN(false)
-    
+
 // })
 // console.log(res);  //*[]
-
-
 
 // let num = [3,6,1,7,4,19,2,9];
 
 // let res = num.filter((e)=>{
 //     return 2;  //* (true)
-    
+
 // })
 // console.log(res);   //*[3,6,1,7,4,19,2,9]
-
-
-
-
-
-
-
 
 // ~problem===========================================================================================================
 
@@ -1165,7 +752,6 @@ console.log(res1);  //*(7) [3, 6, 1, 7, 19, 2, 9]
 
 // let res = isNumAvailable(number);
 // console.log(res); //*[6]
-
 
 //~ problem: check if number is present inside the array, then print the index position, else print -1.
 
@@ -1186,40 +772,20 @@ console.log(res1);  //*(7) [3, 6, 1, 7, 19, 2, 9]
 // console.log(res);  //*1
 // console.log(typeof res);  //*string
 
-
 // ~===========================================================================================================
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 //! find(ele,index,Entire_arr) method:
-
 
 //? find(ele,index,Entire_arr) method:
 // It is used to get the 1st occured element which satisfied the condition w.r.to true/false.
 
 // It accept one-argument where the argument is a callback function.
-// The callback function accepts three-parameter where, the 1st parameter is elements of array, the 
+// The callback function accepts three-parameter where, the 1st parameter is elements of array, the
 // 2nd-paframeter is index-position and the
 // 3rd-parameter is Entire Array
 
 // find method returns the 1st occured element which satisfied the condition and stop the execution of callback function.
 // If no element is satisfying the condition then returns undefined (by default).
-
-
-
-
-
 
 // ===================================================================================================
 //? find(ele,index,Entire_arr) method:
@@ -1233,23 +799,13 @@ console.log(res1);  //*(7) [3, 6, 1, 7, 19, 2, 9]
 // If provided, it will be used as the this value for each invocation of predicate. If it is not provided, undefined is used instead.
 // ===================================================================================================
 
+let number = [3, 6, 1, 7, 4, 19, 2, 9];
 
+let res = number.find((ele, index, Entire_arr) => {
+  return ele > 81; //* (true)
+});
 
-
-
-
-
-
-// let number = [13,6,1,7,4,19,2,9];
-
-// let res = number.find((ele,index,Entire_arr)=>{
-
-//     return ele > 4;  //* (true)
-// })
-
-// console.log(res); //*6
-
-
+console.log(res); //*6
 
 // let number = [13,6,1,7,4,19,2,9];
 
@@ -1259,9 +815,6 @@ console.log(res1);  //*(7) [3, 6, 1, 7, 19, 2, 9]
 // })
 
 // console.log(res); //* undefined (by default)
-
-
-
 
 // let number = [123,6,1,7,4,19,2,9];
 
@@ -1276,44 +829,18 @@ console.log(res1);  //*(7) [3, 6, 1, 7, 19, 2, 9]
 
 // console.log(res); //* 123
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //! findIndex(ele,index,Entire_arr) method:
 
 //? findIndex(ele,index,Entire_arr) method:
 // It is used to get the index-position which satisfied the condition w.r.to true/false.
 
 // It accept one-argument where the argument is a callback function.
-// The callback function accepts three-parameter where, the 1st parameter is elements of array, the 
+// The callback function accepts three-parameter where, the 1st parameter is elements of array, the
 // 2nd-paframeter is index-position and the
 // 3rd-parameter is Entire Array
 
 // find method returns the index-position which satisfied the condition and stop the execution of callback function.
 // If no element is satisfying the condition then returns -1(by default).
-
-
-
-
-
 
 // ===================================================================================================
 //? findIndex(ele,index,Entire_arr) method:
@@ -1328,9 +855,6 @@ console.log(res1);  //*(7) [3, 6, 1, 7, 19, 2, 9]
 
 // ===================================================================================================
 
-
-
-
 // let number = [3,6,1,7,4,19,2,9];
 
 // let res = number.findIndex((ele,index,Entire_arr)=>{
@@ -1339,7 +863,6 @@ console.log(res1);  //*(7) [3, 6, 1, 7, 19, 2, 9]
 // })
 
 // console.log(res); //* 1
-
 
 // let number = [3,6,1,7,4,19,2,9];
 
@@ -1350,8 +873,6 @@ console.log(res1);  //*(7) [3, 6, 1, 7, 19, 2, 9]
 
 // console.log(res); //* -1  (by default)
 
-
-
 // let number = [13,6,1,7,4,19,2,9];
 
 // let res = number.findIndex((ele,index,Entire_arr)=>{
@@ -1360,9 +881,6 @@ console.log(res1);  //*(7) [3, 6, 1, 7, 19, 2, 9]
 // })
 
 // console.log(res); //* 0
-
-
-
 
 // let number = [13,6,1,7,4,19,2,9];
 
@@ -1373,7 +891,6 @@ console.log(res1);  //*(7) [3, 6, 1, 7, 19, 2, 9]
 
 // console.log(res); //* -1 (by default)
 
-
 // let number = [13,6,1,7,4,19,2,9];
 
 // let res = number.findIndex((ele,index,Entire_arr)=>{
@@ -1382,9 +899,6 @@ console.log(res1);  //*(7) [3, 6, 1, 7, 19, 2, 9]
 // })
 
 // console.log(res); //* 0
-
-
-
 
 // let number = [123,6,1,7,4,19,2,9];
 
@@ -1398,4 +912,3 @@ console.log(res1);  //*(7) [3, 6, 1, 7, 19, 2, 9]
 // })
 
 // console.log(res); //* 123
-
