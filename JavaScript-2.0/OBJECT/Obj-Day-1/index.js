@@ -197,11 +197,10 @@ console.log("=========================")
 let res = arr.map(ele=> ele);
 // console.log(res === arr); //* false
 
-res[0] = "wwd";
-arr[1][0] = "cgvhbj";
+// res[0] = "wwd";
+res[1][0] = "cgvhbj";
 
 console.log(res);
-
 console.log(arr);
 
 
