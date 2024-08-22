@@ -19,5 +19,6 @@ function darkLight() {
     btn.innerText = "Dark";
     btn.className = "btn2";
     btnContainer.className = "btn-container2";
+    // btn.style.transition = "1s ease-in";
   }
 }
