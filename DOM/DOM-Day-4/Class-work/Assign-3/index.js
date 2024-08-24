@@ -1,21 +1,10 @@
-
 let img1 = "../../../../JavaScript-2.0/MOCK_HTML_CSS-17-08/Images/hero-carousel-1.jpg";
 let img2 = "../../../../JavaScript-2.0/MOCK_HTML_CSS-17-08/Images/testimonials-2.jpg";
 let img3 = "../../../../JavaScript-2.0/MOCK_HTML_CSS-17-08/Images/testimonials-3.jpg";
 let img4 = "../../../../JavaScript-2.0/MOCK_HTML_CSS-17-08/Images/testimonials-4.jpg";
-
-
 let image = document.getElementById("image");
 
 let arrImg = [img1,img2,img3,img4];
-// Array.from(arrImg);
-
-
-// for(let i = 0; i < arrImg.length; i++){
-//     function Forward(){
-//         image.src = arrImg[i];
-//     }
-// }
 
 let c = 0;
 function Forward(){
