@@ -1,0 +1,16 @@
+#parent {
+    border: 2px solid red;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    background: #31d6a2;
+}
+button{
+    padding: 10px 20px;
+    /* color: aliceblue; */
+    /* background-color: rgb(14, 107, 76); */
+}
+
