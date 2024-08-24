@@ -1,0 +1,28 @@
+#message {
+    border: 2px solid red;
+    background-color: aquamarine;
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    visibility: hidden;
+    /* display: none; */
+    
+}
+
+#btn {
+    width: 100px;
+    padding: 10px;
+    background-color: rgb(12, 83, 59);
+    color: aliceblue;
+    display: block;
+    margin: auto;
+    /* margin-top: 100px; */
+}
+
+.head1{
+    background-color: aqua;
+    text-align: center;
+}
