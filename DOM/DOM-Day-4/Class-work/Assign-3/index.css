@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    user-select: none;
+}
+
+#parent {
+    border: 5px solid rgb(106, 46, 46);
+    background-color: rgb(172, 247, 222);
+    width: 900px;
+    height: 700px;
+    display: flex;
+    margin: auto;
+}
+#child {
+    border: 4px solid rgb(95, 22, 22);
+    background-color: rgb(204, 247, 232);
+    width: 800px;
+    height: 650px;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#child i {
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgb(9, 102, 58);
+    background-color: rgb(9, 102, 58);
+    border-radius: 50%;
+    color: aliceblue;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    align-items: center;
+    transition: 0.3s;
+}
+
+#child i:hover{
+    background-color: aliceblue;
+    border: 2px solid rgb(9, 102, 58);
+    color: rgb(9, 102, 58);
+}
+
+.img-card{
+    width: 700px;
+    height: 600px;
+}
+
+.img-card img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
