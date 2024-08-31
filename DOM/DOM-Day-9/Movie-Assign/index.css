@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(207, 230, 251);
+}
+
+#container {
+    /* border: 2px solid red; */
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#child-container {
+    /* border: 3px solid blue; */
+    /* width: 95%; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    gap: 20px;
+}
+
+#card {
+    /* border: 2px solid rgb(21, 255, 0); */
+    width: 280px;
+    margin: 15px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#img-card {
+    /* border: 2px solid red; */
+    height: 280px;
+    width: 250px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin: auto;
+}
+
+#img-card img {
+    /* object-fit: cover; */
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+#card-details,
+h2 {
+    /* border: 2px solid blue; */
+    background-color: #898989;
+    width: 100%;
+    height: 50px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    color: aliceblue;
+}
+
+#card-details:hover {
+    background-color: #070707;
+}
+
+h2,
+h3 {
+    font-size: 18px;
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#divTitle {
+    height: 50px;
+    border: 2px solid rgb(101, 101, 101);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: #727272;
+    color: aliceblue;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    transition: 0.4s;
+
+}
+
+#divTitle:hover {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #030303;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+}
+
+#buybtn {
+    background-color: rgb(107, 154, 255);
+    padding: 5px 0px;
+    color: aliceblue;
+    font-size: 16px;
+    border: 2px solid rgb(107, 149, 255);
+    transition: 0.4s;
+    border-radius: 10px;
+}
+
+#buybtn:hover {
+    color: rgb(45, 99, 249);
+    background-color: aliceblue;
+    border: 2px solid rgb(69, 143, 254);
+}
+
+#productRating {
+    color: rgb(0, 102, 255);
+}
