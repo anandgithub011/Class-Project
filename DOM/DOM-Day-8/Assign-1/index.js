@@ -4,8 +4,20 @@ async function getUserDetails() {
     users = await users.json();
     // console.log(users);
 
+    userDataDisplay(users);
 
-    let table = document.createElement("table");
+  } catch (error) {
+    console.log(error.message);
+  } finally {
+    console.log("Always runs Finally");
+  }
+}
+getUserDetails();
+
+
+function userDataDisplay(users){
+
+  let table = document.createElement("table");
 
     let thead = document.createElement("thead");
 
@@ -55,10 +67,5 @@ async function getUserDetails() {
       tbody.append(bodytr);
     });
 
-  } catch (error) {
-    console.log(error.message);
-  } finally {
-    console.log("Always runs Finally");
-  }
 }
-getUserDetails();
+
