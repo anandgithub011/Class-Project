@@ -1,0 +1,303 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    user-select: none;
+}
+body{
+    font-family: 'Lucida Sans',sans-serif;
+}
+
+
+nav{
+    /* border: 2px solid rgb(37, 37, 37); */
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(73, 73, 73);
+    border-bottom: 2px solid rgb(88, 88, 88);
+}
+#logo{
+    padding-left: 110px;
+    width: 1360px;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo p {
+    font-size: 45px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#logo span {
+    /* font-size: 45px; */
+    color: rgb(233, 2, 2);
+}
+
+#logo i{
+    font-size: 35px;
+    color: rgb(255, 191, 0);
+}
+
+
+/* logo-end */
+
+#form{
+    /* border: 2px solid red; */
+    background-color: rgba(0, 0, 0, 0.795);
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#search-input{
+    border: 2px solid rgb(0, 0, 0);
+    /* border-top-left-radius: 10px; */
+    /* border-bottom-left-radius: 10px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.4s;
+    border-radius: 10px;
+}
+#search-input:hover{
+    border: none;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    /* background-color: rgb(255, 208, 0); */
+}
+#search-input input{
+    font-size: 25px;
+    border-radius: 10px;
+    color: aliceblue;
+    width: 400px;
+    height: 42px;
+    background-color: rgb(41, 41, 41);
+    transition: 0.4s;
+    padding: 0px 10px;
+    border: none;
+}
+#search-input input:hover{   
+    color: black;
+    background-color: rgb(255, 208, 0);
+}
+
+
+#form p{
+    font-size: 33px;
+    color: aliceblue;
+}
+
+#form span{
+    color: red;
+}
+#search-input i{
+    font-size: 25px;
+    background-color: rgb(41, 41, 41);padding: 5px;
+    height: 42px;
+}
+#search-input i:hover{
+    background-color: rgb(202, 202, 202);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: 2px solid;
+}
+
+
+#submit {
+    border: none;
+    background-color: #282727;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+#submit:hover{
+    background-color: #d65555;
+    border-bottom-right-radius: 15px;
+    color: rgb(59, 181, 45);
+}
+#submit i{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: none;
+    color: rgb(206, 206, 206);  
+    border-top-right-radius: 15px;
+    transition: 0.4s;
+}
+#submit i:hover{
+    color: rgb(41, 41, 41);
+    background-color: #dbb808;
+}
+
+
+
+#msg-parent{
+    /* border: 2px solid rgb(9, 255, 0); */
+    height: 200px;
+    display: none;
+    margin-top: 50px;
+}
+#msg-child{
+    background-color: #282727;
+    border-radius: 20px;
+    /* border: 2px solid red; */
+    width: 50%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    /* transition: 3s; */
+}
+#msg-child p{
+    font-size: 35px;
+    color: #ededed;
+}
+
+/* Display-Card-UI */
+
+
+
+body {
+    background-color: rgb(207, 230, 251);
+}
+
+#container {
+    /* border: 2px solid red; */
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#child-container {
+    /* border: 3px solid blue; */
+    /* width: 95%; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    gap: 20px;
+}
+
+#card {
+    border: 2px solid rgb(21, 255, 0);
+    width: 280px;
+    margin: 15px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#card:hover{
+    border: 2px solid red;
+}
+
+#img-card {
+    /* border: 2px solid red; */
+    height: 280px;
+    width: 250px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin: auto;
+}
+
+#img-card img {
+    /* object-fit: cover; */
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+#card-details,
+h2 {
+    /* border: 2px solid blue; */
+    background-color: #898989;
+    width: 100%;
+    height: 50px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    color: aliceblue;
+}
+
+#card-details:hover {
+    background-color: #070707;
+}
+
+h2,
+h3 {
+    font-size: 18px;
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#divTitle {
+    height: 50px;
+    border: 2px solid rgb(101, 101, 101);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: #727272;
+    color: aliceblue;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    transition: 0.4s;
+
+}
+
+#divTitle:hover {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #030303;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+}
+
+#buybtn {
+    background-color: rgb(107, 154, 255);
+    padding: 5px 0px;
+    color: aliceblue;
+    font-size: 16px;
+    border: 2px solid rgb(107, 149, 255);
+    transition: 0.4s;
+    border-radius: 10px;
+}
+
+#buybtn:hover {
+    color: rgb(45, 99, 249);
+    background-color: aliceblue;
+    border: 2px solid rgb(69, 143, 254);
+}
+
+#productRating {
+    color: rgb(0, 102, 255);
+}
+
